@@ -52,7 +52,7 @@ const Contact = () => {
             </h3>
             
             <div className="space-y-6">
-              {contactInfo.map((info, index) => (
+              {contactInfo.map((info) => (
                 <div
                   key={info.title}
                   className="flex items-center space-x-4 p-4 rounded-lg hover:bg-surface transition-colors duration-300"

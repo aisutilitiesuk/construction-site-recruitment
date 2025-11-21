@@ -1,20 +1,8 @@
 import { CheckCircle, Shield, Users, Clock } from 'lucide-react'
 import aboutImage from '../../assets/About Section/about-construction-site-recruitment.jpeg'
 import risqsBadge from '../../assets/Certified/risqs-verified.png'
-import aisLogo from '../../assets/Clients/ais-logo.png'
-import energeyesLogo from '../../assets/Clients/energeyes.png'
-import jamtodayLogo from '../../assets/Clients/jamtoday-company-logo-300x300-1.png'
-import mandeconnectLogo from '../../assets/Clients/mandeconnectlogo-300x300-1.jpeg'
-import unsLogo from '../../assets/Clients/uns-logo-andrew-300x300-1.png'
 
 const About = () => {
-  const clientLogos = [
-    { name: 'AIS Utilities', logo: aisLogo },
-    { name: 'Energeyes', logo: energeyesLogo },
-    { name: 'Jamtoday', logo: jamtodayLogo },
-    { name: 'Mandeconnect', logo: mandeconnectLogo },
-    { name: 'UNS', logo: unsLogo }
-  ]
 
   const features = [
     {
@@ -106,7 +94,7 @@ const About = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
-          {features.map((feature, index) => (
+          {features.map((feature) => (
             <div
               key={feature.title}
               className="text-center p-6 rounded-lg hover:shadow-lg transition-shadow duration-300"

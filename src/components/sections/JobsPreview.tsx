@@ -1,5 +1,5 @@
 // Removed framer-motion to fix navigation issues
-import { MapPin, Clock, Briefcase, ArrowRight } from 'lucide-react'
+import { MapPin, Briefcase, ArrowRight } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 import Modal from '../ui/Modal'

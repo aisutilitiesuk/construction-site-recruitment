@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion'
 import { Zap, Wind, Train, Building, Wrench, Calculator } from 'lucide-react'
 
 const Sectors = () => {
@@ -67,7 +66,7 @@ const Sectors = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {sectors.map((sector, index) => (
+          {sectors.map((sector) => (
             <div
               key={sector.title}
               className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 group"

@@ -3,7 +3,6 @@ import { Building2, UserCheck, Zap, Upload } from 'lucide-react'
 import { useState } from 'react'
 import Modal from '../ui/Modal'
 import TallyEmbed from '../ui/TallyEmbed'
-import ctaImage from '../../assets/CTA/construction-site-join-now.jpeg'
 
 const Candidates = () => {
   const [showCVModal, setShowCVModal] = useState(false)
@@ -42,7 +41,7 @@ const Candidates = () => {
 
         {/* Benefits Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-          {benefits.map((benefit, index) => (
+          {benefits.map((benefit) => (
             <div
               key={benefit.title} className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 text-center"
             >
@@ -69,7 +68,7 @@ const Candidates = () => {
           </h3>
           
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 text-center">
-            {['Utilities', 'Renewables', 'Rail', 'Construction', 'Civils', 'Finance'].map((sector, index) => (
+            {['Utilities', 'Renewables', 'Rail', 'Construction', 'Civils', 'Finance'].map((sector) => (
               <div
                 key={sector} className="bg-primary/10 rounded-lg p-4 hover:bg-primary/20 transition-colors duration-300"
               >

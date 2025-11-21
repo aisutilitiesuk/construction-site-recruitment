@@ -38,7 +38,7 @@ const TallyEmbed = ({ formId, height = 500, className = '' }: TallyEmbedProps) =
       />
       
       {/* CSS to hide any remaining Tally branding */}
-      <style jsx>{`
+      <style>{`
         iframe {
           border: none !important;
         }
