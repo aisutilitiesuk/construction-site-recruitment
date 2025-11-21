@@ -4,6 +4,7 @@
 
 [build.environment]
   NODE_VERSION = "20"
+  CI = "true"
 
 # SPA redirect for React Router
 [[redirects]]
