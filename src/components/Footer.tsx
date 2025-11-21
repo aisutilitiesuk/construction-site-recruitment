@@ -32,6 +32,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-primary transition-colors"
+                aria-label="Follow Construction Site Recruitment on LinkedIn"
               >
                 <Linkedin size={24} />
               </a>
@@ -40,6 +41,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-primary transition-colors"
+                aria-label="Follow Construction Site Recruitment on Facebook"
               >
                 <Facebook size={24} />
               </a>

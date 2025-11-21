@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://sprightly-stardust-1cdc64.netlify.app/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1

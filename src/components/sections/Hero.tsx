@@ -5,10 +5,15 @@ const Hero = () => {
   return (
     <section className="relative text-white overflow-hidden">
       {/* Background Image */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroBackground})` }}
-      ></div>
+      <div className="absolute inset-0">
+        <img 
+          src={heroBackground} 
+          alt="Construction Site Background" 
+          className="w-full h-full object-cover" 
+          {...({ fetchPriority: "high" } as any)}
+          loading="eager"
+        />
+      </div>
       
       {/* Modern Clean Overlay */}
       <div className="absolute inset-0 bg-black/40 z-10"></div>
