@@ -15,13 +15,13 @@ const HomePage = () => {
     "@graph": [
       {
         "@type": "Organization",
-        "@id": "https://constructionsiterecruitment.co.uk/#organization",
+        "@id": "https://sprightly-stardust-1cdc64.netlify.app/#organization",
         "name": "Construction Site Recruitment",
         "alternateName": "CSR",
-        "url": "https://constructionsiterecruitment.co.uk",
+        "url": "https://sprightly-stardust-1cdc64.netlify.app",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://constructionsiterecruitment.co.uk/src/assets/Logo/csr-logo.png"
+          "url": "https://sprightly-stardust-1cdc64.netlify.app/assets/csr-logo-C8YmMPH9.png"
         },
         "address": {
           "@type": "PostalAddress",
@@ -45,8 +45,8 @@ const HomePage = () => {
       },
       {
         "@type": "WebSite",
-        "@id": "https://constructionsiterecruitment.co.uk/#website",
-        "url": "https://constructionsiterecruitment.co.uk",
+        "@id": "https://sprightly-stardust-1cdc64.netlify.app/#website",
+        "url": "https://sprightly-stardust-1cdc64.netlify.app",
         "name": "Construction Site Recruitment",
         "description": "UK's leading specialist recruitment agency for critical infrastructure projects",
         "publisher": {
@@ -55,8 +55,8 @@ const HomePage = () => {
       },
       {
         "@type": "WebPage",
-        "@id": "https://constructionsiterecruitment.co.uk/#webpage",
-        "url": "https://constructionsiterecruitment.co.uk",
+        "@id": "https://sprightly-stardust-1cdc64.netlify.app/#webpage",
+        "url": "https://sprightly-stardust-1cdc64.netlify.app",
         "name": "Construction Site Recruitment | UK's Leading Infrastructure Recruitment Agency",
         "isPartOf": {
           "@id": "https://constructionsiterecruitment.co.uk/#website"
@@ -68,12 +68,12 @@ const HomePage = () => {
       },
       {
         "@type": "LocalBusiness",
-        "@id": "https://constructionsiterecruitment.co.uk/#localbusiness",
+        "@id": "https://sprightly-stardust-1cdc64.netlify.app/#localbusiness",
         "name": "Construction Site Recruitment",
-        "image": "https://constructionsiterecruitment.co.uk/src/assets/Logo/csr-logo.png",
+        "image": "https://sprightly-stardust-1cdc64.netlify.app/assets/csr-logo-C8YmMPH9.png",
         "telephone": "+44-292-002-8365",
         "email": "jobs@constructionsiterecruitment.co.uk",
-        "url": "https://constructionsiterecruitment.co.uk",
+        "url": "https://sprightly-stardust-1cdc64.netlify.app",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "22 Oxford Street",
