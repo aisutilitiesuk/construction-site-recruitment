@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#d97706', // Darker orange for better contrast
+        primary: '#f57112', // Correct brand orange
         secondary: '#000000',
         background: '#ffffff',
         surface: '#f9fafb',

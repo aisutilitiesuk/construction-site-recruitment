@@ -23,6 +23,14 @@ const HomePage = () => {
           "@type": "ImageObject",
           "url": "https://constructionsiterecruitment.co.uk/src/assets/Logo/csr-logo.png"
         },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "22 Oxford Street",
+          "addressLocality": "Mountain Ash",
+          "addressRegion": "Wales",
+          "postalCode": "CF45 3PL",
+          "addressCountry": "GB"
+        },
         "contactPoint": {
           "@type": "ContactPoint",
           "telephone": "+44-292-002-8365",
@@ -66,6 +74,14 @@ const HomePage = () => {
         "telephone": "+44-292-002-8365",
         "email": "jobs@constructionsiterecruitment.co.uk",
         "url": "https://constructionsiterecruitment.co.uk",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "22 Oxford Street",
+          "addressLocality": "Mountain Ash",
+          "addressRegion": "Wales",
+          "postalCode": "CF45 3PL",
+          "addressCountry": "GB"
+        },
         "areaServed": {
           "@type": "Country",
           "name": "United Kingdom"
