@@ -21,3 +21,4 @@ const CandidatesPage = () => {
 
 export default CandidatesPage
 
+

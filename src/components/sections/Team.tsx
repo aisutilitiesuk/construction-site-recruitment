@@ -1,15 +1,15 @@
 // Removed framer-motion to fix navigation issues
-import ashleighPhoto from '../../assets/Team/Ashleigh-Jones.jpg'
+import craigPhoto from '../../assets/Team/Craig-Davies.jpg'
 import danielPhoto from '../../assets/Team/daniel-forth-rumley.jpg'
 import soniePhoto from '../../assets/Team/sonie.png'
 
 const Team = () => {
   const team = [
     {
-      name: 'Ashleigh Jones',
+      name: 'Craig Davies',
       role: 'Director',
-      bio: 'Leading CSR with extensive experience in infrastructure recruitment and business development.',
-      image: ashleighPhoto,
+      bio: 'Fully Accredited ICP specialist leading CSR\'s infrastructure connections division. Expert in New Connections, Disconnections, Diversions, and Civil Engineering projects across the UK\'s critical infrastructure networks.',
+      image: craigPhoto,
     },
     {
       name: 'Daniel Forth-Rumley',
